@@ -1,0 +1,112 @@
+/* Profile Container */
+.profile-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* User Image */
+.userImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Card Styles */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Card Header */
+.card-header {
+  padding: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Card Description */
+.card-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Card Content */
+.card-content {
+  padding: 20px;
+}
+
+/* Input Styles */
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Button Styles */
+.button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Tabs Styles */
+.tabs {
+  margin-bottom: 20px;
+}
+
+/* Tabs List */
+.tabs-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Tabs Trigger */
+.tabs-trigger {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.tabs-trigger:hover {
+  color: #3498db;
+}
+
+.tabs-trigger.active {
+  color: #3498db;
+  border-bottom: 2px solid #3498db;
+}
+
+/* Tabs Content */
+.tabs-content {
+  padding: 20px 0;
+}
+
+/* Footer Styles */

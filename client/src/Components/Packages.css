@@ -1,0 +1,88 @@
+/* Packages Container */
+.packages {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Package Tabs */
+.package-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.package-tabs button {
+  background-color: #f8f9fa;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.package-tabs button:hover {
+  background-color: #e9ecef;
+}
+
+.package-tabs button.active {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Package Content */
+.package-content {
+  margin-top: 20px;
+}
+
+/* Package Card */
+.package-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.package-card:hover {
+  transform: scale(1.05);
+}
+
+/* Package Image */
+.package-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Package Details */
+.package-details {
+  padding: 20px;
+}
+
+.package-details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.package-details p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Package Info */
+.package-info {
+  margin-top: 15px;
+}
+
+.package-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.package-info p {
+  font-size: 1rem;
+  color: #333;
+}

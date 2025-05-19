@@ -1,0 +1,67 @@
+/* Popular Cruises Container */
+.popular-cruises {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Cruise Cards */
+.cruise-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Cruise Card */
+.cruise-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.cruise-card:hover {
+  transform: scale(1.05);
+}
+
+/* Cruise Image */
+.cruise-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Cruise Content */
+.cruise-content {
+  padding: 20px;
+}
+
+.cruise-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.cruise-content p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* View More Button */
+.view-more-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.view-more-button:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,93 @@
+/* Admin Home Container */
+.admin-home {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  display: none; /* Hidden by default on small screens */
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    display: block; /* Show on medium and larger screens */
+  }
+}
+
+/* Sidebar Title */
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Sidebar Navigation */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Sidebar Link */
+.sidebar-link {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.sidebar-link:hover {
+  background-color: #e9ecef;
+}
+
+.sidebar-link.active {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Not Found */
+.not-found {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Not Found Title */
+.not-found-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Not Found Text */
+.not-found-text {
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Not Found Button */
+.not-found-button {
+  margin-top: 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.not-found-button:hover {
+  background-color: #2980b9;
+}

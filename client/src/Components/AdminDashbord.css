@@ -1,0 +1,291 @@
+/* Admin Dashboard Container */
+.admin-dashboard {
+  background-color: #1a202c;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Welcome */
+.welcome {
+  display: flex;
+  align-items: center;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Stat Card */
+.stat-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #1a202c;
+}
+
+/* Card Content */
+.card-content {
+  padding: 0;
+}
+
+/* Card Header */
+.card-header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Card Icon */
+.card-icon {
+  background-color: #3b82f6;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 10px;
+}
+
+/* Card Info */
+.card-info {
+  flex: 1;
+}
+
+/* Card Label */
+.card-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Card Value */
+.card-value {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Card Footer */
+.card-footer {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+/* View All */
+.view-all {
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+/* View All Button */
+.view-all-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Recent Bookings Card */
+.recent-bookings-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #1a202c;
+  margin-bottom: 20px;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Table Container */
+.table-container {
+  overflow-x: auto;
+}
+
+/* Customer Info */
+.customer-info {
+  display: flex;
+  align-items: center;
+}
+
+/* Customer Avatar */
+.customer-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #3b82f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 10px;
+}
+
+/* Customer Details */
+.customer-details {
+  flex: 1;
+}
+
+/* Customer Name */
+.customer-name {
+  font-weight: bold;
+}
+
+/* Customer Email */
+.customer-email {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Cruise Info */
+.cruise-info {
+  font-weight: bold;
+}
+
+/* Cruise Date */
+.cruise-date {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Booking Date */
+.booking-date {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Booking Amount */
+.booking-amount {
+  font-weight: bold;
+}
+
+/* Badge */
+.badge {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.875rem;
+}
+
+.badge-confirmed {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.badge-pending {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.badge-cancelled {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+/* Edit Button */
+.edit-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Cancel Button */
+.cancel-button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Quick Links */
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Quick Link Card */
+.quick-link-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #1a202c;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.quick-link-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Quick Link */
+.quick-link {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Quick Link Title */
+.quick-link-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Loading */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 4rem);
+}
+
+/* Loader */
+.loader {
+  font-size: 2rem;
+}
+
+/* No Bookings */
+.no-bookings {
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+}

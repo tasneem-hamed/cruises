@@ -1,0 +1,68 @@
+.hero {
+  background-image: url('../Images/hero.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #2980b9;
+}
+
+.login-form .error-message {
+  color: #e74c3c;
+  margin-bottom: 1rem;
+}
+
+.login-form .smalltext {
+  margin-top: 1rem;
+  color: #555;
+}
+
+.login-form .smalltext a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.login-form .smalltext a:hover {
+  text-decoration: underline;
+}

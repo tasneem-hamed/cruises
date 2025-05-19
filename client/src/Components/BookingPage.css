@@ -1,0 +1,199 @@
+/* BookingPage.css */
+
+.booking-page {
+  display: flex;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  gap: 40px;
+}
+
+.destination-info {
+  flex: 1;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.destination-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.destination-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.destination-info p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.view-ports {
+  display: inline-block;
+  margin: 10px 0;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.included h3,
+.room-selection h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #343a40;
+}
+
+.included ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 10px 0;
+}
+
+.included li {
+  font-size: 15px;
+  padding: 4px 0;
+}
+
+.room-selection p {
+  font-size: 15px;
+  margin: 4px 0;
+}
+
+.room-configuration {
+  flex: 1;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.room-configuration h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.guest-selection {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.guest-type label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.guest-type p {
+  font-size: 14px;
+  color: #666;
+}
+
+.guest-count {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.guest-count button {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+  background-color: #e2e6ea;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.guest-count span {
+  font-size: 18px;
+  min-width: 20px;
+  text-align: center;
+}
+
+.price-details {
+  background-color: #f1f3f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.price-details p {
+  margin: 6px 0;
+  font-size: 20px;
+}
+
+.price-details .price {
+  font-size: 26px;
+  font-weight: bold;
+  color: #004085;
+}
+
+.additional-options {
+  margin: 15px 0;
+}
+
+.add-room-button,
+.continue-booking-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #0056b3;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-room-button {
+  background-color: #6c757d;
+}
+
+.add-room-button:hover {
+  background-color: #5a6268;
+}
+
+.continue-booking-button:hover {
+  background-color: #004494;
+}
+
+.dropdown-toggle {
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+}
+
+.dropdown-toggle:hover {
+  background-color: #f1f1f1;
+}
+
+.included-list {
+  margin: 10px 0;
+  list-style: disc inside;
+  padding-left: 15px;
+}
+
+.included-list li {
+  padding: 6px 0;
+  font-size: 15px;
+}
+
+

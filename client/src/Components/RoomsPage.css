@@ -1,0 +1,94 @@
+/* Room Page Container */
+.room-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Room Summary */
+.room-summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Summary Section */
+.summary-section {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Room Selection */
+.room-selection {
+  margin-top: 20px;
+}
+
+/* Suite Grid */
+.suite-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Suite Card */
+.suite-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.suite-card:hover {
+  transform: scale(1.05);
+}
+
+/* Suite Image */
+.suite-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Suite Info */
+.suite-info {
+  padding: 20px;
+}
+
+/* Suite Features */
+.suite-features {
+  list-style-type: none;
+  padding: 0;
+}
+
+.suite-features li {
+  padding: 5px 0;
+}
+
+/* Suite Price */
+.suite-price {
+  margin-top: 10px;
+  text-align: right;
+}
+
+/* Select Button */
+.select-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.select-button:hover {
+  background-color: #2980b9;
+}

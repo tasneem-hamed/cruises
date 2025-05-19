@@ -1,0 +1,50 @@
+/* What's Included Container */
+.whats-included {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Included Grid */
+.included-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Included Card */
+.included-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.included-card:hover {
+  transform: scale(1.05);
+}
+
+/* Included Image */
+.included-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Included Content */
+.included-content {
+  padding: 15px;
+}
+
+.included-content h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.included-content p {
+  font-size: 1rem;
+  color: #333;
+}

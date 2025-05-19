@@ -1,0 +1,295 @@
+/* Admin Users Container */
+.admin-users {
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  margin-bottom: 20px;
+}
+
+/* Title */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Search Card */
+.search-card {
+  margin-bottom: 20px;
+}
+
+/* Search Content */
+.search-content {
+  padding: 20px;
+}
+
+/* Search Input Container */
+.search-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (min-width: 640px) {
+  .search-input-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* Search Input */
+.search-input {
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .search-input {
+    width: auto;
+  }
+}
+
+/* Search Icon */
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6b7280;
+}
+
+/* Input Field */
+.input-field {
+  padding-left: 30px;
+}
+
+/* Export Button */
+.export-button {
+  margin-left: auto;
+}
+
+/* Users Table Card */
+.users-table-card {
+  margin-top: 20px;
+}
+
+/* Table Content */
+.table-content {
+  padding: 0;
+}
+
+/* Loading */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Loader */
+.loader {
+  font-size: 1.5rem;
+}
+
+/* Error */
+.error {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+/* Table Container */
+.table-container {
+  overflow-x: auto;
+}
+
+/* User Info */
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+/* User Avatar */
+.user-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #3b82f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 10px;
+}
+
+/* User Name */
+.user-name {
+  font-weight: bold;
+}
+
+/* User Username */
+.user-username {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Badge */
+.badge {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.875rem;
+}
+
+.admin {
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.customer {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+/* Menu Button */
+.menu-button {
+  padding: 5px;
+}
+
+/* Menu Icon */
+.menu-icon {
+  font-size: 1.25rem;
+}
+
+/* Menu Item Icon */
+.menu-item-icon {
+  margin-right: 5px;
+}
+
+/* No Users */
+.no-users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* No Users Icon */
+.no-users-icon {
+  font-size: 3rem;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+/* No Users Title */
+.no-users-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* No Users Text */
+.no-users-text {
+  color: #6b7280;
+}
+
+/* Dialog Content */
+.dialog-content {
+  max-width: 500px;
+}
+
+/* User Details */
+.user-details {
+  margin-top: 20px;
+}
+
+/* User Avatar Container */
+.user-avatar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* User Avatar Large */
+.user-avatar-large {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #3b82f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* User Details Name */
+.user-details-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* User Details Username */
+.user-details-username {
+  color: #6b7280;
+}
+
+/* User Details Info */
+.user-details-info {
+  margin-top: 20px;
+}
+
+/* User Details Item */
+.user-details-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* User Details Icon */
+.user-details-icon {
+  margin-right: 5px;
+}
+
+/* User Details Label */
+.user-details-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-right: 5px;
+}
+
+/* User Details Actions */
+.user-details-actions {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* User Details Actions Title */
+.user-details-actions-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* User Details Actions Buttons */
+.user-details-actions-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
